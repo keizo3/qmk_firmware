@@ -1,17 +1,13 @@
 ### 
-### 1. ディレクトリ作成
-keyboards/ergodash/rev20240924/  
-をコピって新たなディレクトリ作成
+### 1. keymap.cを修正
+keyboards/ergodash/rev2/keymaps/default/keymap.c  
   
 
-### 2. keymap.cを修正
-keyboards/ergodash/rev20240924/keymaps/default/keymap.c  
+### 2. ビルド
+make ergodash/rev2:default  
   
 
-### 3. ビルド
-  
-
-### 4. 焼く
+### 3. 焼く
 ・QMK toolboxを起動する  
 ・対象のhexファイルを選択する(ergodash_rev2_default.hex)  
 ・キーボードをUSB接続する  
