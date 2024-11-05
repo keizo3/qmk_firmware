@@ -1,3 +1,26 @@
+### 
+### 1. ディレクトリ作成
+keyboards/ergodash/rev20240924/  
+をコピって新たなディレクトリ作成
+  
+
+### 2. keymap.cを修正
+keyboards/ergodash/rev20240924/keymaps/default/keymap.c  
+  
+
+### 3. ビルド
+  
+
+### 4. 焼く
+・QMK toolboxを起動する  
+・対象のhexファイルを選択する(ergodash_rev2_default.hex)  
+・キーボードをUSB接続する  
+・キーボードのリセットボタン押すとQMK toolboxのflashが押せるようになるので、flash（5秒ぐらいすると押せなくなる）  
+  
+
+完了！！  
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
